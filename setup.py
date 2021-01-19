@@ -46,7 +46,7 @@ DOWNLOAD_URL = '{}/archive/{}.zip'.format(GITHUB_URL, __version__)
 PACKAGES = find_packages(exclude=['tests', 'tests.*'])
 
 REQUIRES = [
-    'requests==2.18.4',
+    'requests==2.20.0',
     'pyyaml>=3.11,<4',
     'pytz>=2017.02',
     'pip>=8.0.3',
